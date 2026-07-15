@@ -1,0 +1,548 @@
+[
+{
+  "model": "portfolio.profile",
+  "pk": 3,
+  "fields": {
+    "full_name": "Suraj Mahapatra",
+    "title": "Full-Stack Developer",
+    "summary": "Full-stack developer with 1+ year building production fintech systems (React/TypeScript, ASP.NET Core, MongoDB); experienced in OAuth integrations, async messaging, and scalable API design.",
+    "email": "surajmahapatra036@gmail.com",
+    "phone": "+91-9304734500",
+    "location": "Jodhpur, India 342001",
+    "github_url": "https://github.com/Suraj6542",
+    "linkedin_url": "https://www.linkedin.com/in/surajmahapatra036/",
+    "instagram_url": "https://instagram.com/_suraj__045",
+    "resume_url": "",
+    "created_at": "2026-07-06T18:10:57.252Z",
+    "updated_at": "2026-07-06T18:10:57.252Z"
+  }
+},
+{
+  "model": "portfolio.skillcategory",
+  "pk": 11,
+  "fields": {
+    "name": "Languages",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.skillcategory",
+  "pk": 12,
+  "fields": {
+    "name": "Frameworks",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.skillcategory",
+  "pk": 13,
+  "fields": {
+    "name": "Databases",
+    "order": 3
+  }
+},
+{
+  "model": "portfolio.skillcategory",
+  "pk": 14,
+  "fields": {
+    "name": "Tools",
+    "order": 4
+  }
+},
+{
+  "model": "portfolio.skillcategory",
+  "pk": 15,
+  "fields": {
+    "name": "Other",
+    "order": 5
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 45,
+  "fields": {
+    "category": 11,
+    "name": "Python",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 46,
+  "fields": {
+    "category": 11,
+    "name": "C#",
+    "proficiency": 80
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 47,
+  "fields": {
+    "category": 11,
+    "name": "TypeScript",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 48,
+  "fields": {
+    "category": 11,
+    "name": "JavaScript",
+    "proficiency": 90
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 49,
+  "fields": {
+    "category": 12,
+    "name": "ASP.NET Core",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 50,
+  "fields": {
+    "category": 12,
+    "name": "React",
+    "proficiency": 90
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 51,
+  "fields": {
+    "category": 12,
+    "name": "Django",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 52,
+  "fields": {
+    "category": 12,
+    "name": "ExpressJS",
+    "proficiency": 75
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 53,
+  "fields": {
+    "category": 12,
+    "name": "Flask",
+    "proficiency": 70
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 54,
+  "fields": {
+    "category": 13,
+    "name": "SQL (MySQL)",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 55,
+  "fields": {
+    "category": 13,
+    "name": "MongoDB",
+    "proficiency": 80
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 56,
+  "fields": {
+    "category": 13,
+    "name": "Schema Designing",
+    "proficiency": 75
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 57,
+  "fields": {
+    "category": 14,
+    "name": "Azure DevOps",
+    "proficiency": 50
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 58,
+  "fields": {
+    "category": 14,
+    "name": "GIT",
+    "proficiency": 90
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 59,
+  "fields": {
+    "category": 14,
+    "name": "Swagger",
+    "proficiency": 75
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 60,
+  "fields": {
+    "category": 14,
+    "name": "Postman",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 61,
+  "fields": {
+    "category": 14,
+    "name": "VS Code",
+    "proficiency": 90
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 62,
+  "fields": {
+    "category": 14,
+    "name": "Visual Studio",
+    "proficiency": 80
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 63,
+  "fields": {
+    "category": 15,
+    "name": "HTML",
+    "proficiency": 90
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 64,
+  "fields": {
+    "category": 15,
+    "name": "CSS",
+    "proficiency": 85
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 65,
+  "fields": {
+    "category": 15,
+    "name": "System Design",
+    "proficiency": 50
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 66,
+  "fields": {
+    "category": 15,
+    "name": "Agile Methods",
+    "proficiency": 80
+  }
+},
+{
+  "model": "portfolio.experience",
+  "pk": 5,
+  "fields": {
+    "company": "Capsitech IT Services",
+    "role": "Assistant System Engineer (FullStack Developer)",
+    "location": "",
+    "start_date": "June 2025",
+    "end_date": "Current",
+    "description": "Working under the Acting Office project within the Self Assessment team, handling full-stack development responsibilities across both frontend and backend.",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.experience",
+  "pk": 6,
+  "fields": {
+    "company": "Startup Odisha",
+    "role": "Intern",
+    "location": "",
+    "start_date": "September 2023",
+    "end_date": "November 2023",
+    "description": "",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.experiencebullet",
+  "pk": 11,
+  "fields": {
+    "experience": 5,
+    "title": "MTD-IT Module",
+    "content": "Developed from scratch using ASP.NET Core and React + TypeScript, integrating with HMRC's Making Tax Digital REST APIs via OAuth 2.0 to enable end-to-end self-assessment tax preparation and submission for 200+ users, eliminating manual HMRC filing.",
+    "skills_used": "ASP.NET Core, React, TypeScript, OAuth 2.0, REST APIs",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.experiencebullet",
+  "pk": 12,
+  "fields": {
+    "experience": 5,
+    "title": "P11D Data Request Module",
+    "content": "Built with a full expense submission and multi-level admin approval workflow; automated P11D return generation post-approval using ASP.NET Core business logic and MongoDB aggregation pipelines, reducing manual reconciliation effort by 70%.",
+    "skills_used": "ASP.NET Core, MongoDB, Aggregation Pipelines",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.experiencebullet",
+  "pk": 13,
+  "fields": {
+    "experience": 5,
+    "title": "Microsoft Azure",
+    "content": "Worked with Azure Service Bus to process multiple async events/month for event-driven processing and Blob Storage for document management in a production environment to support scalable payroll and tax workflows.",
+    "skills_used": "Azure Service Bus, Azure Blob Storage",
+    "order": 3
+  }
+},
+{
+  "model": "portfolio.experiencebullet",
+  "pk": 14,
+  "fields": {
+    "experience": 5,
+    "title": "System Design",
+    "content": "Contributed to HLD and LLD discussions for 2 scalable payroll and tax modules, applying microservices patterns, async messaging with Azure Service Bus, and RESTful API design principles.",
+    "skills_used": "System Design, Microservices, Azure Service Bus, REST APIs",
+    "order": 4
+  }
+},
+{
+  "model": "portfolio.experiencebullet",
+  "pk": 15,
+  "fields": {
+    "experience": 6,
+    "title": "Data Analysis",
+    "content": "Managed program datasets and built a Power BI dashboard to analyze Startup-Yatra and Startup-Xpress outcomes.",
+    "skills_used": "Power BI, Python, Pandas, NumPy",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 3,
+  "fields": {
+    "title": "Recall",
+    "subtitle": "Full-Stack Chrome Extension & Web App",
+    "description": "Built a full-stack Chrome extension and web app using Django REST Framework and React that schedules reminders for links, todos, notes, videos, jobs, and purchases.",
+    "tech_stack": "Django REST Framework, React, MySQL, JWT, Google OAuth",
+    "github_url": "https://github.com/Suraj6542/recall-extension",
+    "live_url": "",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 4,
+  "fields": {
+    "title": "Interview Question Scraper",
+    "subtitle": "Flask Web Scraper",
+    "description": "Developed a Python Flask scraper to extract interview questions from JavaTpoint and save the results in multiple formats including MS Word, PDF, and CSV for easy download and review.",
+    "tech_stack": "Python, Flask, BeautifulSoup, MySQL, CSV, PDF",
+    "github_url": "https://github.com/Suraj6542/Scraping_project.git",
+    "live_url": "",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 5,
+  "fields": {
+    "title": "Easy Shop Platform",
+    "subtitle": "Django E-Commerce Clone",
+    "description": "Built a user-friendly multi-user e-commerce app with Django, allowing users to register, login, browse products, add items to cart, place orders, and manage their session flow.",
+    "tech_stack": "Django, HTML, Bootstrap, MySQL, JavaScript",
+    "github_url": "https://github.com/Suraj6542/Fully_functional_Ecom_application_clone",
+    "live_url": "",
+    "order": 3
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 6,
+  "fields": {
+    "title": "Real-Time Chat App",
+    "subtitle": "Django Channels Messaging",
+    "description": "Created a real-time chat application using Django Channels and WebSockets for instant communication across authenticated users with independent logouts.",
+    "tech_stack": "Django, Django Channels, HTML, Bootstrap, WebSockets",
+    "github_url": "https://github.com/Suraj6542/Real_time_chat_app.git",
+    "live_url": "",
+    "order": 4
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 7,
+  "fields": {
+    "project": 3,
+    "title": "Authentication",
+    "content": "Implemented secure JWT authentication alongside Google OAuth via the Chrome Identity API, verifying tokens on the backend to link accounts and isolate user-specific data.",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 8,
+  "fields": {
+    "project": 3,
+    "title": "Notifications",
+    "content": "Developed a Chrome service worker featuring alarm-based polling, dynamic badges, and a stateful notification system that tracks alerts (Pending, Sent, Acknowledged) and auto-re-fires dismissed reminders after a 5-minute cooldown.",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 9,
+  "fields": {
+    "project": 3,
+    "title": "UI & Deployment",
+    "content": "Maintained codebase with responsive CSS to support both a full browser view and a compact 360px popup layout; deployed the backend and MySQL database on Railway, with the extension source maintained on GitHub.",
+    "order": 3
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 10,
+  "fields": {
+    "project": 4,
+    "title": "Data Extraction",
+    "content": "Scraped structured interview questions from a public website and normalized the content into a database for reliable querying, filtering, and export.",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 11,
+  "fields": {
+    "project": 4,
+    "title": "Export Formats",
+    "content": "Added export support for DOCX, PDF, and CSV so users can download question sets in their preferred format for offline study and sharing.",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 12,
+  "fields": {
+    "project": 5,
+    "title": "Shopping Workflow",
+    "content": "Implemented product browsing, cart management, order placement, and checkout workflows with clear user feedback and session persistence.",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 13,
+  "fields": {
+    "project": 5,
+    "title": "Auth & UX",
+    "content": "Supported registration, login, logout, and account-specific order history to create a realistic multi-user shopping experience.",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 14,
+  "fields": {
+    "project": 6,
+    "title": "Real-Time Messaging",
+    "content": "Built WebSocket-based message delivery with Django Channels to enable chat rooms, live typing indicators, and message broadcasting.",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.projectbullet",
+  "pk": 15,
+  "fields": {
+    "project": 6,
+    "title": "Session Management",
+    "content": "Handled user authentication, independent logout, and real-time session updates to keep chats secure and responsive.",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.education",
+  "pk": 3,
+  "fields": {
+    "institution": "Biju Patnaik University of Technology",
+    "degree": "Bachelor of Technology",
+    "field_of_study": "Computer Science & Engineering",
+    "start_year": "2021",
+    "end_year": "2025",
+    "description": "",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.leadership",
+  "pk": 3,
+  "fields": {
+    "organization": "TEC AIC-NALANDA",
+    "role": "Networking Head & Technical Trainee",
+    "location": "Bhubaneswar",
+    "start_date": "Oct 2022",
+    "end_date": "June 2025",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.leadershipbullet",
+  "pk": 5,
+  "fields": {
+    "leadership": 3,
+    "title": "Networking",
+    "content": "Led the networking team and collaborated with other college cells for mini level project development.",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.leadershipbullet",
+  "pk": 6,
+  "fields": {
+    "leadership": 3,
+    "title": "Training",
+    "content": "Conducted doubt clearing sessions to resolve technical queries for students.",
+    "order": 2
+  }
+},
+{
+  "model": "portfolio.award",
+  "pk": 3,
+  "fields": {
+    "title": "Won the Database Management Competition at the BPUT Tech Carnival",
+    "description": "Competed and won first place in the Database Management Competition.",
+    "date": "December 2024",
+    "order": 1
+  }
+},
+{
+  "model": "portfolio.contactmessage",
+  "pk": 1,
+  "fields": {
+    "name": "Test User",
+    "email": "test@example.com",
+    "subject": "Test Subject",
+    "message": "Test message content.",
+    "created_at": "2026-07-06T17:31:06.871Z",
+    "is_read": false
+  }
+}
+]

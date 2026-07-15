@@ -69,6 +69,9 @@ DATABASES = {
         'PORT': config('DB_PORT', default='3306'),
         'OPTIONS': {
             'charset': 'utf8mb4',
+            'ssl': {
+                'ca': '/etc/secrets/ca.pem' if os.path.exists('/etc/secrets/ca.pem') else str(BASE_DIR / 'ca.pem'),
+            },
         },
     }
 }
