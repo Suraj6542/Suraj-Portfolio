@@ -1,6 +1,9 @@
 """
 WSGI config for portfolio_api project.
 """
+import pymysql
+pymysql.install_as_MySQLdb()
+
 import os
 from django.core.wsgi import get_wsgi_application
 
