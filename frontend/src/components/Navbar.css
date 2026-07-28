@@ -69,11 +69,13 @@
   border-radius: var(--radius-md);
   transition: all var(--transition-fast);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar-resume-btn:hover {
   background: var(--color-accent);
   color: var(--color-bg-primary);
+  text-decoration: none;
 }
 
 /* Mobile menu toggle */
