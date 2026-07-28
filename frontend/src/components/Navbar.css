@@ -72,12 +72,6 @@
   text-decoration: none;
 }
 
-.navbar-resume-btn:hover {
-  background: var(--color-accent);
-  color: var(--color-bg-primary);
-  text-decoration: none;
-}
-
 /* Mobile menu toggle */
 .navbar-toggle {
   display: none;
